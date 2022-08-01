@@ -1,0 +1,46 @@
+API: GET /api/v1/Authors
+ Test Case: response should be 200 OK
+ Expected Result: 200 OK
+ Actual Result: 200 OK
+ Status: Pass
+ 
+API: GET /api/v1/Authors
+ Test Case: Objects inside response contain, id, idBook, firstName, lastName
+ Expected Result: Objects inside response contain, id, idBook, firstName, lastName
+ Actual Result: Objects inside response contain, id, idBook, firstName, lastName
+ Status: Pass
+ 
+API: POST /api/v1/Authors
+ Test Case: Register a new valid Author successfully and response code "201 Created"
+ Expected Result: Register a new valid Author successfully and response code "201 Created"
+ Actual Result: Register a new valid Author successfully and response code "200 Success"
+ Status: Fail
+ 
+API: POST /api/v1/Authors
+ Test Case: firstname & lastname should be mandatory
+ Expected Result: The request should fail and the response code should be 400 if firstname is missed in the request body (same for lastname).
+ Actual Result: The request passed successfully (in both firstName & lastName) and put them with "null" value and response code "200 Success"
+ Status: Fail
+ 
+API: GET /api/v1/Authors/authors/books/{idBook}
+ Test Case: Searching with valid idBook should return relative data in response body.
+ Expected Result: Searching with valid idBook like 1 then all returned results in response body should contain idBook = 1 (same for idBook 2,3).
+ Actual Result: Successfully Searching with valid idBook (1,2 and 3) and all all returned results in response body had contain its corresponding idBook.
+ Status: Pass
+ 
+API: PUT /api/v1/Authors/{id}
+ Test Case: Update (firstname, lastname) and confirm that Author's data in response is updated successfully.
+ Expected Result: Author's data is updated successfully.
+ Actual Result: (firstname, lastname) updated and confirmed that Author's data in response is updated successfully with response code "200 Sucess"
+ Status: Pass
+ 
+API: Get /api/v1/Authors/{id}
+ Test Case: The author's data is changed in GET request. and make sure that if a change occurred from one endpoint (PUT request), it will affect other endpoints as well (GET request)
+ Expected Result: Same data as entered in the previews case.
+ Actual Result: The response of the same id changed in the previews Test Case, don't give the same data have been entered in the previews Test Case.
+ Status: Fail
+
+
+ 
+
+ 
