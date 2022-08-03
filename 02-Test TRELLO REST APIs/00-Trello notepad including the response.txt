@@ -1,0 +1,149 @@
+{
+  "id": "55e492a77eacd55d83c9fcdd",
+  "aaId": "70121:1a54c68c-6cd9-47a5-9a78-c5fd7802100a",
+  "activityBlocked": false,
+  "avatarHash": "1458abe7a279ab6b09c2edfda5e81041",
+  "avatarUrl": "https://trello-members.s3.amazonaws.com/55e492a77eacd55d83c9fcdd/1458abe7a279ab6b09c2edfda5e81041",
+  "bio": "",
+  "bioData": {
+    "emoji": {}
+  },
+  "confirmed": true,
+  "fullName": "AhmedSh",
+  "idEnterprise": null,
+  "idEnterprisesDeactivated": [],
+  "idMemberReferrer": null,
+  "idPremOrgsAdmin": [],
+  "initials": "A",
+  "memberType": "normal",
+  "nonPublic": {},
+  "nonPublicAvailable": true,
+  "products": [],
+  "url": "https://trello.com/ahmedsh",
+  "username": "ahmedsh",
+  "status": "disconnected",
+  "aaBlockSyncUntil": null,
+  "aaEmail": "chem.ahmedshehata@gmail.com",
+  "aaEnrolledDate": null,
+  "avatarSource": "none",
+  "credentialsRemovedCount": 0,
+  "domainClaimed": null,
+  "email": "chem.ahmedshehata@gmail.com",
+  "goldSunsetFreeTrialIdOrganization": null,
+  "gravatarHash": "a668b373cb42a20c29bdd444d2d1573b",
+  "idBoards": [
+    "55e492a77eacd55d83c9fcde",
+    "55e499948fe3f7565623c1ae",
+    "55e49c20b2c4d260d261f885",
+    "55e4a0750f10e6352711cea2",
+    "55e4ba2927da63ac3dfb40ef",
+    "55e5e57e2ba9a69bd962655d",
+    "55e9703850be42ad7818d54a",
+    "5beaa8864579cf1571f6c42e",
+    "62e7edf35216c000bcdc5a2f",
+    "62e7f2ad9f9a6f0022d7643c",
+    "62e7f3bb9606f20046a7f426",
+    "62e80f4b3765d900cbdd7aea",
+    "62e82a60402c9200fd6e28d5"
+  ],
+  "idOrganizations": [
+    "60d3c34250f39e1724473279"
+  ],
+  "idEnterprisesAdmin": [],
+  "limits": {
+    "boards": {
+      "totalPerMember": {
+        "status": "ok",
+        "disableAt": 4500,
+        "warnAt": 3600
+      }
+    },
+    "orgs": {
+      "totalPerMember": {
+        "status": "ok",
+        "disableAt": 850,
+        "warnAt": 680
+      }
+    }
+  },
+  "loginTypes": [
+    "atlassian",
+    "password"
+  ],
+  "marketingOptIn": {
+    "optedIn": true,
+    "date": "2018-04-05T03:38:57.548Z"
+  },
+  "messagesDismissed": [
+    {
+      "name": "ad-DirectoryBusinessClassBanner",
+      "count": 2,
+      "lastDismissed": "2018-11-13T16:44:27.623Z",
+      "_id": "5babce43e1f7a31057785914"
+    },
+    {
+      "name": "1-nov-2018-tos-change-accepted",
+      "count": 1,
+      "lastDismissed": "2018-11-13T17:01:01.973Z",
+      "_id": "5beb034dd914440e85442929"
+    }
+  ],
+  "oneTimeMessagesDismissed": [
+    "notifications-onboarding",
+    "simplified-view-full-view",
+    "simplified-view-org-settings",
+    "simplified-view-card-activity",
+    "simplified-view-card-move",
+    "simplified-view-labels-and-edit",
+    "close-menu-of-first-board",
+    "primary-email-hygiene",
+    "WorkspacesPreamblePrompt-5beaa8864579cf1571f6c42e"
+  ],
+  "prefs": {
+    "privacy": {
+      "fullName": "public",
+      "avatar": "public"
+    },
+    "sendSummaries": true,
+    "minutesBetweenSummaries": 1,
+    "minutesBeforeDeadlineToNotify": 1440,
+    "colorBlind": true,
+    "locale": "en-US"
+  },
+  "trophies": [],
+  "uploadedAvatarHash": null,
+  "uploadedAvatarUrl": null,
+  "premiumFeatures": [
+    "additionalBoardBackgrounds",
+    "additionalStickers",
+    "customBoardBackgrounds",
+    "customEmoji",
+    "customStickers",
+    "plugins"
+  ],
+  "isAaMastered": true,
+  "ixUpdate": "219",
+  "boards": [
+    {
+      "id": "62e7f3bb9606f20046a7f426",
+      "name": "NN",
+      "closed": false,
+      "idOrganization": "60d3c34250f39e1724473279",
+      "pinned": false
+    },
+    {
+      "id": "62e80f4b3765d900cbdd7aea",
+      "name": "NewBoard",
+      "closed": false,
+      "idOrganization": "60d3c34250f39e1724473279",
+      "pinned": false
+    },
+    {
+      "id": "62e82a60402c9200fd6e28d5",
+      "name": "NewBoard",
+      "closed": false,
+      "idOrganization": "60d3c34250f39e1724473279",
+      "pinned": false
+    }
+  ]
+}
